@@ -6,6 +6,6 @@ module.exports = defineConfig({
       // implement node event listeners here
       return config
     },
-    specPattern:""
+    specPattern:"cypress/integration/testapi/*.js"
   },
 });
